@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background:url("apps.36996.9007199266246294.abea0cd2-08db-4314-bbae-079a102a0e2e.jfif");
+    overflow: hidden;
+    background-position: center;
+    position: fixed;
+    
+}
+.heading{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(137, 43, 226, 0.252);
+}
+h1{
+    font-size: 10vmin;
+    color: white;
+}
+.winner{
+    font-size:8vmin;
+    color: rgb(148, 8, 67);
+}
+.container{
+    /* background-color: blueviolet; */
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    justify-content: center;
+    
+}
+.newDiv{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newGame{
+    width: 30vmin;
+    height: 7vmin;
+    border: none;
+    border-radius: 5px;
+    margin: 1vmin;
+    font-size: 4vmin;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+}
+.box{
+    width: 15vmin;
+    height: 15vmin;
+    margin: 1vmin;
+    font-size: 10vmin;
+    border: none;
+    border-radius: 10px;
+    color: rgb(235, 103, 103);
+    box-shadow: 0 5px 15px rgba(19, 15, 15, 0.577);
+    background-color: aliceblue;
+    
+}
